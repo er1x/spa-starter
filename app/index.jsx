@@ -2,12 +2,15 @@
 
 import React from 'react';
 
+import Timer from './components/timer/index.jsx';
 
 class App extends React.Component {
   render() {
-    return <div className="App">
-              hola
-           </div>;
+    return (
+      <div className="App">
+        <Timer />
+      </div>
+    );
   }
 }
 
