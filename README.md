@@ -6,4 +6,7 @@ Uses:
 * React
 * Browserify: babelify
 * Stylus
-* Gulp tasks
+* Gulp tasks:
+  * default: serve and watch.
+  * test: test non-components with mocha.
+* Karma test for components
