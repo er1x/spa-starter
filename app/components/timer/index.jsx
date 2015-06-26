@@ -19,6 +19,7 @@ export default class Timer extends React.Component {
   render(){
     return (
       <div className="Timer">
+        <img  src="static/img/timer.png" />
         {this.state.timer.toLocaleString()}
       </div>
     );

@@ -10,5 +10,5 @@ gulp.task('styles', function(){
       use: nib(),
       'include css': true
     }))
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('build/static/'));
 });

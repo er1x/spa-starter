@@ -26,6 +26,6 @@ function bundle() {
   return b.bundle()
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))
     .pipe(source('index.js'))
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest('build/static'))
     .pipe(reload({stream: true}));
 }
